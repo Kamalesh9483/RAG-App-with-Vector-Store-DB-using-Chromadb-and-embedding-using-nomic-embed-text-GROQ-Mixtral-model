@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-core
+gradio
+langchain_openai
+python-dotenv
+BeautifulSoup4
+chromadb
+groq
+langchain-groq
+ollama
+python-dotenv
+streamlit
