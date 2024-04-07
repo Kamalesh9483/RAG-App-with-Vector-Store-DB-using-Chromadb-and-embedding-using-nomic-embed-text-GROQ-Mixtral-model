@@ -1,1 +1,12 @@
-# LLM_with_PineCone_Vector_DB
+# RAG App with Vector Store DB using Chromadb and embedding using nomic-embed-text, GROQ (Mixtral model) for inferencing on Html content
+
+![image](https://github.com/Kamalesh9483/RAG-App-with-Vector-Store-DB-using-Chromadb-and-embedding-using-nomic-embed-text-GROQ-Mixtral-model/assets/80197808/51dca3df-20c9-4fef-a47c-5933f5f65a06)
+
+## This project is on Retrieval Augumented Generation based on URL input
+## 1. User Inputs the URL links and question to be asked from the URL links 
+## 2. The HTML data is split as documents and converted to chunks and transformed to vector embeddings which is stored in Vector DB - Chrmadb
+## 3. The GROQ uses Mixtral LLM model. GROQ is used for fast inference, the model reads the vector db and creates custom prompt on how to display the result
+## 4. The results for the question asked is displayed 
+
+https://github.com/Kamalesh9483/RAG-App-with-Vector-Store-DB-using-Chromadb-and-embedding-using-nomic-embed-text-GROQ-Mixtral-model/assets/80197808/004369ed-fbb4-4465-9bd9-00f372170736
+
